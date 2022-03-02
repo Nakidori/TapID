@@ -1,0 +1,15 @@
+name: TapID
+main: nakidori\tapid\Main
+api: 4.0.0
+version: 1.0.0
+
+commands:
+   tapid:
+    description: "ID checkerを取得する"
+    usage: "/tapid"
+    permission: tapid.command
+
+permissions:
+   tapid.command:
+    description: "/tapidコマンドの使用を許可"
+    default: true
